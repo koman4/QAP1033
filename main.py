@@ -3,7 +3,7 @@ import bs4
 import numpy as np
 
 per_cent = {'ТКБ': 5.6, 'СКБ': 5.9, 'ВТБ': 4.28, 'СБЕР': 4.0}
-money = 10000
+money = 100000
 
 A = per_cent.get('ТКБ')
 bank1 = money + (money/100*A)
